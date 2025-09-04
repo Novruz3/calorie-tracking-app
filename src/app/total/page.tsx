@@ -30,7 +30,7 @@ const chartConfig = {
   },
 } satisfies ChartConfig;
 
-const page = () => {
+const Page = () => {
   const [activeChart, setActiveChart] =
     React.useState<keyof typeof chartConfig>("weight");
   const total = React.useMemo(
@@ -126,4 +126,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
