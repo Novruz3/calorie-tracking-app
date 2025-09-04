@@ -171,7 +171,7 @@ export const Main = () => {
         </Card>
 
         <div className="grid grid-cols-2 gap-4">
-          <Card className="flex flex-col w-64 h-48">
+          <Card className="flex flex-col col-span-2 md:col-span-1 md:w-64 h-48">
             <CardHeader className="items-center pb-0">
               <CardTitle>Daily Weight (kg)</CardTitle>
             </CardHeader>
@@ -184,7 +184,7 @@ export const Main = () => {
             </CardContent>
           </Card>
 
-          <Card className="flex flex-col w-64 h-48">
+          <Card className="flex flex-col col-span-2 md:col-span-1 md:w-64 h-48">
             <CardHeader className="items-center pb-0">
               <CardTitle>Daily Total Calories</CardTitle>
             </CardHeader>
@@ -197,7 +197,7 @@ export const Main = () => {
             </CardContent>
           </Card>
 
-          <Card className="flex flex-col w-64 h-48">
+          <Card className="flex flex-col col-span-2 md:col-span-1 md:w-64 h-48">
             <CardHeader className="items-center pb-0">
               <CardTitle>Update Current Weight</CardTitle>
             </CardHeader>
@@ -217,7 +217,7 @@ export const Main = () => {
             </CardContent>
           </Card>
 
-          <Card className="flex flex-col w-64 h-48">
+          <Card className="flex flex-col col-span-2 md:col-span-1 md:w-64 h-48">
             <CardHeader className="items-center pb-0">
               <CardTitle>Update Goal Calorie</CardTitle>
             </CardHeader>

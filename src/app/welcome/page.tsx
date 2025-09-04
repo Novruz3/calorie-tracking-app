@@ -15,9 +15,13 @@ export default function Home() {
         </span>
       </div>
       <div className="p-8">
-        <Image className="rounded-lg h-[calc(100vh*2/3)]" src={image} alt="" />
+        <Image
+          className="rounded-lg md:h-[calc(100vh*2/3)]"
+          src={image}
+          alt=""
+        />
       </div>
-      <div className="flex justify-end">
+      <div className="flex justify-end items-end h-full">
         <Button
           onClick={() => router.push("welcome/question/firstname")}
           className="bg-blue-500 w-48 h-12 text-lg cursor-pointer rounded-sm hover:bg-blue-600"

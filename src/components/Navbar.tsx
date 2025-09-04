@@ -26,8 +26,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full bg-blue-500 h-18 rounded-b-2xl grid grid-cols-3 items-center px-8 text-white">
-      <div className=" text-2xl flex gap-2 col-span-1">
+    <div className="w-full bg-blue-500 sm:h-18 rounded-b-2xl sm:grid sm:grid-cols-3 items-center px-8 text-white">
+      <div className=" text-2xl flex gap-2 col-span-1 justify-center sm:justify-normal">
         <span>Welcome</span>
         <span className="font-bold">{user.firstname}!</span>
       </div>
@@ -49,12 +49,12 @@ const Navbar = () => {
           Total
         </Link>
       </ul>
-      <button
+      <p
         onClick={handleLogout}
-        className="text-lg col-span-1 justify-end flex hover:underline"
+        className="text-lg col-span-1 justify-center sm:justify-end flex hover:underline"
       >
         Logout
-      </button>
+      </p>
     </div>
   );
 };
